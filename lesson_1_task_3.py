@@ -1,5 +1,2 @@
-user_name = "Евгений"
-def input():
-    print ("Привет, "+ user_name)
-
-input()
+user_name = input('Введите ваше имя: ')
+print(f'Мое имя = {user_name}')
