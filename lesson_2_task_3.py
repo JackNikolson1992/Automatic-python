@@ -1,4 +1,4 @@
-def square(x):
-    x=int(x*x)
+def square (x):
+    x=round(x*x)
     print ('Площадь квадрата = ',x)
-square(4.55)
+square(100.9999)
